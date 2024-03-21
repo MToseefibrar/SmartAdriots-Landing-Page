@@ -1,0 +1,62 @@
+.sectionone {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+
+  /* background-color: antiquewhite; */
+}
+
+.text_area h1 {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: poppins;
+}
+
+.orange_text {
+  color: #eb5a06;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+}
+.paragraph {
+  padding-top: 20px;
+}
+
+.paragraph p {
+  line-height: 25px;
+}
+
+.main_btn {
+  margin-top: 25px;
+}
+
+.main_btn button {
+  height: 40px;
+  width: 200px;
+  background-image: linear-gradient(to left, #ff9f67, #eb5a06);
+  border: none;
+  border-radius: 30px;
+  color: white;
+}
+
+/* Section Two CSS */
+
+.section_two {
+  background-color: #eb5a06;
+  height: 90px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50px;
+  margin-top: 80px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.companies_logos_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px 0px 25px;
+}

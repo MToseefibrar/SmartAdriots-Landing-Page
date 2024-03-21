@@ -1,0 +1,62 @@
+.clients_section {
+  /* background-color: antiquewhite; */
+  height: 730px;
+}
+
+.clients_heading {
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+  font-family: poppins;
+  font-weight: 500;
+}
+.clients_section p {
+  text-align: center;
+  padding: 7px 0px 0px 0px;
+  font-family: poppins;
+}
+.cleints_container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 0px 0px;
+  gap: 20px;
+}
+
+.client_box {
+  height: 270px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid rgb(218, 218, 218);
+  padding: 0px 10px 0px 10px;
+}
+
+.client_box:hover {
+  background-color: #eb5a06;
+  transition: 0.6s ease;
+  color: white;
+}
+
+.client_paragraph {
+  font-size: 14px;
+  font-family: poppins;
+  font-weight: 300;
+  margin: 7px 0px 0px 0px;
+  line-height: 20px;
+}
+.client_image img {
+  position: relative;
+  top: 20px;
+  left: 40%;
+}
+.name {
+  text-align: center;
+  padding: 35px 0px 0px 0px;
+  font-size: 20px;
+  font-family: poppins;
+  font-weight: 500;
+}
+
+.reviews_image img {
+  position: relative;
+  top: 10px;
+  left: 37%;
+}

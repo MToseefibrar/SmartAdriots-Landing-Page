@@ -1,0 +1,45 @@
+.navbar {
+  background-color: white;
+  height: 60px;
+  width: 80%;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  /* z-index: 1; */
+  margin: 35px 0px 0px 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Navbar_Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px 0px 25px;
+}
+
+.menu_items {
+  display: flex;
+}
+.menu_items li {
+  list-style: none;
+  margin-left: 40px;
+  font-weight: 600;
+}
+.menu_items li:hover {
+  color: #eb5a06;
+}
+
+.leftsode h3 {
+  font-weight: 700;
+}
+
+.contact_button {
+  height: 32px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 550;
+  background-image: linear-gradient(to left, #ff9f67, #eb5a06);
+  transition: 0.3s;
+}

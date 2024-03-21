@@ -1,0 +1,104 @@
+.footer_section {
+  background-color: black;
+  height: 520px;
+  position: relative;
+}
+.footer_container {
+  height: 280px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  /* background-color: aliceblue; */
+  transform: translateY(220px);
+}
+.company_intro {
+  height: 300px;
+  width: 450px;
+  /* background-color: antiquewhite; */
+}
+
+.company_intro h2 {
+  color: white;
+  font-family: poppins;
+  font-weight: 600;
+}
+.company_intro p {
+  color: white;
+  font-family: poppins;
+  font-weight: 300;
+  transform: translateY(13px);
+  line-height: 25px;
+}
+.company_intro h3 {
+  color: white;
+  font-family: poppins;
+  font-weight: 600;
+  margin: 25px 0px 0px 0px;
+}
+.company_intro span {
+  color: white;
+  font-family: poppins;
+  font-weight: 600;
+  margin: 30px 0px 0px 0px;
+}
+
+.phone {
+  display: flex;
+  gap: 15px;
+}
+.phone {
+  margin: 15px 0px 0px 0px;
+}
+
+.Mail {
+  display: flex;
+  gap: 15px;
+}
+
+.facebook {
+  background-color: white;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin: 10px 0px 0px 0px;
+}
+
+.facebook:hover {
+  background-color: rgb(128, 39, 7);
+}
+.twitter {
+  background-color: white;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin: 10px 0px 0px 0px;
+}
+.twitter:hover {
+  background-color: rgb(128, 39, 7);
+}
+.In {
+  background-color: white;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin: 10px 0px 0px 0px;
+}
+.In:hover {
+  background-color: rgb(128, 39, 7);
+}
+.facebook img {
+  padding: 8px 0px 0px 13px;
+}
+.twitter img {
+  padding: 11px 0px 0px 9px;
+}
+.In img {
+  padding: 8px 0px 0px 11px;
+}
+
+.media_icons {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0px 0px 0px;
+}
